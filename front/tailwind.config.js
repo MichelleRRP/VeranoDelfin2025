@@ -16,7 +16,7 @@ export default {
         fontdef: "#413324",
       },
       fontFamily: {
-        outfit: ["Outfit", "sans-serif"],
+        mulish: ["Mulish", "sans-serif"], //ahhhhsdas
       },
     },
   },

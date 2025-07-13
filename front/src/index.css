@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 
 /* PALETA DE COLORES y FUENTES*/
 @theme {
-    --color-bgcolor: #F0F1D2;
-    --color-barcolor: #FFFDEF;
-    --color-accent1: #C3C37E;
+    --color-bgcolor: #489366;
+    --color-barcolor: #85A947;
+    --color-accent1: #82FCB3;
     --color-accent2: #7E7EC3;
     --color-fontlink: #5a5acb;
     --color-linkselect: #3f3fe3;
     --color-fontdef: #413324;
-    --font-Outfit: 'Outfit', sans-serif;
+    --font-Mulish: 'Mulish', sans-serif;
+    
 }
 
 @keyframes fadeIn {
