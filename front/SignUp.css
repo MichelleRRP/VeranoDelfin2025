@@ -18,6 +18,12 @@ input[type="text"], input[type="password"]{
     margin-bottom: 15px;
 }
 
+label{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
 button{
     border-radius: 50px;
     border: 0px;
@@ -29,13 +35,6 @@ button{
     background-color: #82FCB3;
 }
 
-#icon-button{
-    padding: 10px;
-    border-radius: 20px;
-    align-items: center;
-    justify-content: center;
-}
-
 .wallpaper{
     align-items: center;
     background-image: url(resources/field.jpg);
@@ -45,21 +44,11 @@ button{
     display: flex;
     flex-direction: column;
 }
-.icon-space{
-    height: 30vh;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    /*background-color: red;*/
-    margin: 50px;
-    display: flex;
-    color: white;
-}
+
 .access-space{
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding-top: 50px;
-    padding-bottom: 50px;
-    width: 450px;
-    height: 500px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 30px;
     display: flex;
@@ -75,10 +64,18 @@ button{
 
 .button-layout{
     display: grid;
-    grid-template-columns: 50% 20% 20%;
+    grid-template-columns: 50% 45%;
     gap: 5%;
+    align-items: center;
 }
 
+.button-layout2{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    gap: 5%;
+    align-items: center;
+}
 #apple, #google{
     border-radius: 15px;
 }
@@ -86,6 +83,16 @@ button{
 #SignIn{
     background-color: black;
     color: white;
+}
+
+#user-type{
+    border-radius: 50px;
+    border: 5px solid #82FCB3;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    height: 75px;
+    text-align: center;
 }
 
 button:hover{
