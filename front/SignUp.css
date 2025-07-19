@@ -10,26 +10,26 @@ h1{
 
 input[type="text"], input[type="password"]{
     border-radius: 50px;
-    padding: 20px;
+    padding: 10px;
     border: 5px solid #82FCB3;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 label{
     margin-left: 30px;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 button{
     border-radius: 50px;
     border: 0px;
-    padding: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: 20px;
     background-color: #82FCB3;
@@ -40,7 +40,7 @@ button{
     background-image: url(resources/field.jpg);
     background-size: cover;
     width: 100%;
-    height: 150vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
 }
@@ -48,7 +48,7 @@ button{
 .access-space{
     margin-top: 25px;
     margin-bottom: 25px;
-    padding-top: 50px;
+    padding-top: 25px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 30px;
     display: flex;
@@ -91,7 +91,7 @@ button{
     font-size: 20px;
     font-weight: bold;
     width: 100%;
-    height: 75px;
+    height: 55px;
     text-align: center;
 }
 
